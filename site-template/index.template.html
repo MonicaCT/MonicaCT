@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{PROJECT_TITLE}} | Monica Cueto Tapia</title>
+  <meta name="description" content="{{PROJECT_DESCRIPTION}}">
+  <meta property="og:title" content="{{PROJECT_TITLE}}">
+  <meta property="og:description" content="{{PROJECT_DESCRIPTION}}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{PROJECT_PAGE_URL}}">
+  <meta property="og:image" content="{{PROJECT_IMAGE}}">
+  <link rel="canonical" href="{{PROJECT_PAGE_URL}}">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Project navigation">
+      <a class="brand" href="{{PORTFOLIO_URL}}">
+        <strong>{{PROJECT_TITLE}}</strong>
+        <span>{{PRIMARY_LAB}}</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="main-nav" id="main-nav">
+        <a href="#summary">Summary</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#figures">Figures</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#reproducibility">Reproduce</a>
+        <a href="{{PORTFOLIO_URL}}">Portfolio</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">{{PROJECT_STATUS}}</p>
+          <h1>{{PROJECT_TITLE}}</h1>
+          <p class="subtitle">{{PROJECT_SUBTITLE}}</p>
+          <p class="lead">{{PROJECT_DESCRIPTION}}</p>
+          <div class="actions">
+            <a class="button primary" href="{{REPOSITORY_URL}}">Repository</a>
+            <a class="button secondary" href="{{DASHBOARD_URL}}">Dashboard</a>
+            <a class="button tertiary" href="{{PAPER_URL}}">Paper / Report</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Project metadata">
+          <div class="signal"><strong>Primary Lab</strong><span>{{PRIMARY_LAB}}</span></div>
+          <div class="signal"><strong>Secondary Labs</strong><span>{{SECONDARY_LABS}}</span></div>
+          <div class="signal"><strong>Author</strong><span>{{AUTHOR_NAME}} - {{AUTHOR_ROLE}}</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section white" id="summary">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Executive Summary</p>
+            <h2>{{EXECUTIVE_SUMMARY_TITLE}}</h2>
+          </div>
+        </div>
+        <div class="grid two">
+          <article class="surface accent">
+            <h3>Problem</h3>
+            <p>{{PROBLEM_STATEMENT}}</p>
+          </article>
+          <article class="surface teal">
+            <h3>Analytical Product</h3>
+            <p>{{ANALYTICAL_PRODUCT}}</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="metrics">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Key Metrics</p>
+            <h2>Analytical scope.</h2>
+          </div>
+        </div>
+        <div class="metric-grid">
+          {{KEY_METRICS}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="findings">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Key Findings</p>
+            <h2>What the evidence shows.</h2>
+          </div>
+        </div>
+        <article class="surface">
+          <ul class="list-clean">
+            {{KEY_FINDINGS}}
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="dashboard">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Dashboard</p>
+            <h2>Interactive or public-facing product.</h2>
+          </div>
+          <a class="button secondary small" href="{{DASHBOARD_URL}}">Open dashboard</a>
+        </div>
+        <article class="project-card">
+          <div class="project-media">
+            <img src="{{DASHBOARD_PREVIEW}}" alt="{{DASHBOARD_PREVIEW_ALT}}">
+          </div>
+          <div class="project-body">
+            <p>{{DASHBOARD_DESCRIPTION}}</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section white" id="figures">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Main Figures</p>
+            <h2>Visual evidence.</h2>
+          </div>
+        </div>
+        <div class="grid three">
+          {{MAIN_FIGURES}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tables">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Executive Tables</p>
+            <h2>Structured outputs.</h2>
+          </div>
+        </div>
+        <div class="publication-list">
+          {{EXECUTIVE_TABLES}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="data">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Data Sources</p>
+            <h2>Inputs and restrictions.</h2>
+          </div>
+        </div>
+        <article class="surface">
+          <ul class="list-clean">
+            {{DATA_SOURCES}}
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="workflow">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Analytical Workflow</p>
+            <h2>From data to product.</h2>
+          </div>
+        </div>
+        <div class="timeline">
+          {{ANALYTICAL_WORKFLOW}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="methodology">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Methodology</p>
+            <h2>Analytical approach.</h2>
+          </div>
+        </div>
+        <article class="surface">
+          <ul class="list-clean">
+            {{METHODOLOGY}}
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="reports">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Paper and Reports</p>
+            <h2>Documentation and deliverables.</h2>
+          </div>
+        </div>
+        <div class="publication-list">
+          {{PAPER_AND_REPORTS}}
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="limitations">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Limitations</p>
+            <h2>Scope and cautions.</h2>
+          </div>
+        </div>
+        <article class="surface">
+          <ul class="list-clean">
+            {{LIMITATIONS}}
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="reproducibility">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Reproducibility</p>
+            <h2>How to inspect the work.</h2>
+          </div>
+          <a class="button secondary small" href="{{REPOSITORY_URL}}">Open repository</a>
+        </div>
+        <article class="surface">
+          <ul class="list-clean">
+            {{REPRODUCIBILITY}}
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section white" id="citation">
+      <div class="container">
+        <div class="grid two">
+          <article class="surface accent">
+            <p class="eyebrow">Citation</p>
+            <h2>Cite this project.</h2>
+            <p>{{CITATION_TEXT}}</p>
+            <a class="button secondary small" href="{{CITATION_FILE}}">CITATION.cff</a>
+          </article>
+          <article class="surface teal">
+            <p class="eyebrow">Author</p>
+            <h2>{{AUTHOR_NAME}}</h2>
+            <p>{{AUTHOR_ROLE}}</p>
+            <a class="button secondary small" href="{{AUTHOR_PROFILE_URL}}">Back to Portfolio</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="related">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Related Projects</p>
+            <h2>Portfolio navigation.</h2>
+          </div>
+        </div>
+        <div class="grid three">
+          {{RELATED_PROJECTS}}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>{{PROJECT_TITLE}}</span>
+      <a href="{{PORTFOLIO_URL}}">Back to Portfolio</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

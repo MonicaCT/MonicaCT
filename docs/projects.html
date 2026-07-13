@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Monica Cueto Tapia</title>
+  <meta name="description" content="Project catalog for Monica Cueto Tapia's applied economics, development analytics, business intelligence, data science and open science portfolio.">
+  <meta property="og:title" content="Projects | Monica Cueto Tapia">
+  <meta property="og:description" content="Filter projects by lab, theme, tool, product type, status, dashboard and paper or report availability.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://monicact.github.io/projects.html">
+  <link rel="canonical" href="https://monicact.github.io/projects.html">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Portfolio home">
+        <strong>Monica Cueto Tapia</strong>
+        <span>Applied Economist & Data Analyst</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="main-nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+        <a href="https://github.com/MonicaCT">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Central Project Catalog</p>
+          <h1>Portfolio projects.</h1>
+          <p class="subtitle">Research products, dashboards, reports and reproducible repositories.</p>
+          <p class="lead">Each project card links only to existing public destinations. When a public page is not yet active, the catalog labels it explicitly instead of inventing a deployment.</p>
+        </div>
+        <aside class="hero-panel" aria-label="Catalog summary">
+          <div class="signal"><strong>7 highlighted repositories</strong><span>Projects harmonized or selected as public-facing portfolio assets.</span></div>
+          <div class="signal"><strong>6 labs</strong><span>Shared navigation across research, analytics and open-science capabilities.</span></div>
+          <div class="signal"><strong>Reusable data file</strong><span>The same catalog is documented in assets/data/projects.json.</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section white">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Filters</p>
+            <h2>Navigate by lab, theme, tool or product.</h2>
+          </div>
+          <button class="button secondary small" type="button" data-reset-filters>Clear filters</button>
+        </div>
+
+        <div class="filters" aria-label="Project filters">
+          <label>
+            <span class="project-meta">Search</span>
+            <input type="search" data-project-search placeholder="Search projects">
+          </label>
+          <label>
+            <span class="project-meta">Lab</span>
+            <select data-project-filter="lab">
+              <option value="all">All labs</option>
+              <option>Applied Economics Lab</option>
+              <option>Research Methods Lab</option>
+              <option>Development Analytics Lab</option>
+              <option>Business Intelligence Lab</option>
+              <option>Data Science Lab</option>
+              <option>Open Science Lab</option>
+            </select>
+          </label>
+          <label>
+            <span class="project-meta">Theme</span>
+            <select data-project-filter="theme">
+              <option value="all">All themes</option>
+              <option>Bolivia</option>
+              <option>Latin America</option>
+              <option>poverty</option>
+              <option>financial</option>
+              <option>housing</option>
+              <option>economic complexity</option>
+              <option>vulnerability</option>
+            </select>
+          </label>
+          <label>
+            <span class="project-meta">Tool</span>
+            <select data-project-filter="tool">
+              <option value="all">All tools</option>
+              <option>R</option>
+              <option>Python</option>
+              <option>SQL</option>
+              <option>Quarto</option>
+              <option>Stata</option>
+              <option>GitHub Pages</option>
+            </select>
+          </label>
+          <label>
+            <span class="project-meta">Product</span>
+            <select data-project-filter="product">
+              <option value="all">All products</option>
+              <option>dashboard</option>
+              <option>report</option>
+              <option>paper</option>
+              <option>figures</option>
+              <option>tables</option>
+              <option>repository</option>
+            </select>
+          </label>
+          <label>
+            <span class="project-meta">Status</span>
+            <select data-project-filter="status">
+              <option value="all">All statuses</option>
+              <option>published</option>
+              <option>deployment pending</option>
+              <option>technical report available</option>
+            </select>
+          </label>
+          <label>
+            <span class="project-meta">Dashboard</span>
+            <select data-project-filter="dashboard">
+              <option value="all">Any</option>
+              <option value="yes">Dashboard or page available</option>
+              <option value="pending">Deployment pending</option>
+              <option value="no">No dashboard claimed</option>
+            </select>
+          </label>
+          <label>
+            <span class="project-meta">Paper / report</span>
+            <select data-project-filter="paper">
+              <option value="all">Any</option>
+              <option value="yes">Available</option>
+              <option value="no">Not claimed</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="grid three" aria-live="polite">
+          <article class="project-card" data-project-card data-lab="Development Analytics Lab Business Intelligence Lab Data Science Lab Open Science Lab" data-theme="financial inclusion credit risk Bolivia business intelligence" data-tool="R Quarto GitHub Pages dashboard reporting" data-product="dashboard report repository" data-status="published public report" data-dashboard="yes" data-paper="yes">
+            <div class="project-media"><img src="https://raw.githubusercontent.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia/main/assets/dashboard-screenshots/01_executive_overview.png" alt="Inclusive credit risk dashboard screenshot"></div>
+            <div class="project-body">
+              <span class="project-meta">Development Analytics Lab</span>
+              <h3>Inclusive Credit Risk Analytics Bolivia</h3>
+              <p><strong>Analytical question:</strong> How can credit portfolio and risk indicators support inclusive financial decision-making in Bolivia?</p>
+              <p><strong>Demonstrated capability:</strong> Credit portfolio diagnostics, risk monitoring, forecasting, stress testing and executive reporting.</p>
+              <div class="tags"><span>R</span><span>Quarto</span><span>Credit risk</span><span>Dashboard</span></div>
+              <p class="status-note">Status: published public report.</p>
+              <div class="card-actions"><a class="button primary small" href="https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/">Page</a><a class="button secondary small" href="https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia">Repository</a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-card data-lab="Applied Economics Lab Research Methods Lab Data Science Lab Open Science Lab" data-theme="economic complexity structural transformation trade Bolivia Latin America" data-tool="R Shiny Quarto panel econometrics" data-product="paper dashboard policy brief repository" data-status="deployment pending scientific content complete" data-dashboard="pending" data-paper="yes">
+            <div class="project-media"><img src="https://raw.githubusercontent.com/MonicaCT/economic-complexity-structural-transformation-lac/main/docs/assets/repository_banner.png" alt="Economic complexity repository banner"></div>
+            <div class="project-body">
+              <span class="project-meta">Applied Economics Lab</span>
+              <h3>Economic Complexity and Structural Transformation in Latin America</h3>
+              <p><strong>Analytical question:</strong> Which productive capabilities shape structural transformation and diversification opportunities in Latin America?</p>
+              <p><strong>Demonstrated capability:</strong> RCA, ECI, PCI, Product Space, opportunity ranking and reproducible release.</p>
+              <div class="tags"><span>R</span><span>Shiny</span><span>Product Space</span><span>DOI</span></div>
+              <p class="status-note">Status: scientific content complete; website deployment pending.</p>
+              <div class="card-actions"><a class="button primary small" href="https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/blob/main/paper/main.pdf">Paper</a><a class="button secondary small" href="https://github.com/MonicaCT/economic-complexity-structural-transformation-lac">Repository</a><a class="button tertiary small" href="https://doi.org/10.5281/zenodo.21314881">DOI</a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-card data-lab="Development Analytics Lab Applied Economics Lab Business Intelligence Lab Open Science Lab" data-theme="poverty informality social protection Latin America" data-tool="Python HTML GitHub Pages validation" data-product="dashboard figures tables repository" data-status="published static dashboard" data-dashboard="yes" data-paper="yes">
+            <div class="project-media"><img src="https://raw.githubusercontent.com/MonicaCT/poverty-informality-social-protection-lac/main/assets/brand/repository-banner.png" alt="Poverty and social protection repository banner"></div>
+            <div class="project-body">
+              <span class="project-meta">Development Analytics Lab</span>
+              <h3>Poverty, Informality and Social Protection in Latin America</h3>
+              <p><strong>Analytical question:</strong> How do poverty, informality and social protection coverage interact across Latin America?</p>
+              <p><strong>Demonstrated capability:</strong> Multi-source indicators, country-year panels, validation and dashboard communication.</p>
+              <div class="tags"><span>Python</span><span>HTML</span><span>Validation</span><span>Dashboard</span></div>
+              <p class="status-note">Status: published static dashboard.</p>
+              <div class="card-actions"><a class="button primary small" href="https://monicact.github.io/poverty-informality-social-protection-lac/dashboard/">Dashboard</a><a class="button secondary small" href="https://github.com/MonicaCT/poverty-informality-social-protection-lac">Repository</a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-card data-lab="Applied Economics Lab Development Analytics Lab Business Intelligence Lab Research Methods Lab" data-theme="financial development credit allocation Latin America PCA" data-tool="R HTML PCA panel models GitHub Pages" data-product="dashboard figures tables report" data-status="published public page" data-dashboard="yes" data-paper="yes">
+            <div class="project-media"><img src="https://raw.githubusercontent.com/MonicaCT/latin-america-financial-development-lab/main/docs/assets/figures/figure_13_productive_transformation_dashboard_figure.png" alt="Financial development dashboard figure"></div>
+            <div class="project-body">
+              <span class="project-meta">Applied Economics Lab</span>
+              <h3>Latin America Financial Development Lab</h3>
+              <p><strong>Analytical question:</strong> How do financial structures and sectoral credit patterns differ across Latin America?</p>
+              <p><strong>Demonstrated capability:</strong> Comparative indicators, clustering, composite index construction and executive reporting.</p>
+              <div class="tags"><span>R</span><span>PCA</span><span>Dashboard</span><span>Tables</span></div>
+              <p class="status-note">Status: published public page.</p>
+              <div class="card-actions"><a class="button primary small" href="https://monicact.github.io/latin-america-financial-development-lab/">Page</a><a class="button secondary small" href="https://github.com/MonicaCT/latin-america-financial-development-lab">Repository</a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-card data-lab="Development Analytics Lab Applied Economics Lab Research Methods Lab Open Science Lab" data-theme="structural vulnerability development constraints Latin America robustness" data-tool="R Stata HTML model diagnostics GitHub Pages" data-product="paper dashboard figures tables" data-status="published public page" data-dashboard="yes" data-paper="yes">
+            <div class="project-media"><img src="https://raw.githubusercontent.com/MonicaCT/structural-vulnerability-lac-research/main/outputs/figures/oecd_style/figure_01_structural_vulnerability_ranking.png" alt="Structural vulnerability ranking figure"></div>
+            <div class="project-body">
+              <span class="project-meta">Development Analytics Lab</span>
+              <h3>Structural Vulnerability in Latin America</h3>
+              <p><strong>Analytical question:</strong> Which structural vulnerability patterns help explain development constraints across Latin America?</p>
+              <p><strong>Demonstrated capability:</strong> Indicator systems, vulnerability ranking, econometric reporting and documentation.</p>
+              <div class="tags"><span>R</span><span>Stata</span><span>Models</span><span>Paper</span></div>
+              <p class="status-note">Status: published public page.</p>
+              <div class="card-actions"><a class="button primary small" href="https://monicact.github.io/structural-vulnerability-lac-research/">Page</a><a class="button secondary small" href="https://github.com/MonicaCT/structural-vulnerability-lac-research">Repository</a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-card data-lab="Development Analytics Lab Applied Economics Lab Data Science Lab Open Science Lab" data-theme="housing household surveys rural Bolivia privacy" data-tool="Python SQL Quarto GitHub Actions" data-product="report figures validation repository" data-status="published public report" data-dashboard="yes" data-paper="yes">
+            <div class="project-media"><img src="https://raw.githubusercontent.com/MonicaCT/rural-bolivia-housing-analytics/main/docs/figures/04_housing_by_zone.png" alt="Rural Bolivia housing figure by zone"></div>
+            <div class="project-body">
+              <span class="project-meta">Development Analytics Lab</span>
+              <h3>Rural Bolivia Housing Analytics</h3>
+              <p><strong>Analytical question:</strong> What do household survey data reveal about rural housing conditions, services and vulnerability in Bolivia?</p>
+              <p><strong>Demonstrated capability:</strong> Privacy-first survey analytics, reproducible reporting, model summaries and validation checks.</p>
+              <div class="tags"><span>Python</span><span>SQL</span><span>Survey</span><span>Report</span></div>
+              <p class="status-note">Status: published public report.</p>
+              <div class="card-actions"><a class="button primary small" href="https://monicact.github.io/rural-bolivia-housing-analytics/">Page</a><a class="button secondary small" href="https://github.com/MonicaCT/rural-bolivia-housing-analytics">Repository</a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project-card data-lab="Data Science Lab Research Methods Lab Open Science Lab" data-theme="requirements engineering data science public benchmark validation" data-tool="Python Markdown technical reporting validation" data-product="technical report figures repository" data-status="technical report available no public dashboard claimed" data-dashboard="no" data-paper="yes">
+            <div class="project-media"><img src="https://raw.githubusercontent.com/MonicaCT/data-science-requirements-breast-cancer/main/report/final_report_preview.png" alt="Final report preview for the breast cancer requirements project"></div>
+            <div class="project-body">
+              <span class="project-meta">Data Science Lab</span>
+              <h3>Data Science Requirements - Breast Cancer</h3>
+              <p><strong>Analytical question:</strong> How can a data-science project be scoped, validated and documented using a public benchmark dataset?</p>
+              <p><strong>Demonstrated capability:</strong> Dataset comparison, missingness review, project architecture and reproducible technical communication.</p>
+              <div class="tags"><span>Python</span><span>Validation</span><span>Report</span><span>Open Science</span></div>
+              <p class="status-note">Status: technical report available; no public dashboard claimed.</p>
+              <div class="card-actions"><a class="button primary small" href="https://github.com/MonicaCT/data-science-requirements-breast-cancer/blob/main/report/final_report.pdf">Report</a><a class="button secondary small" href="https://github.com/MonicaCT/data-science-requirements-breast-cancer">Repository</a></div>
+            </div>
+          </article>
+        </div>
+        <p class="empty-state" data-empty-state hidden>No projects match the selected filters.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Project catalog - Monica Cueto Tapia</span>
+      <a href="index.html">Back to portfolio</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

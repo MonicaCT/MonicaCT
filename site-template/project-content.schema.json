@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://monicact.github.io/site-template/project-content.schema.json",
+  "title": "Portfolio Project Content",
+  "type": "object",
+  "required": [
+    "title",
+    "subtitle",
+    "repository_url",
+    "portfolio_url",
+    "author",
+    "labs",
+    "executive_summary",
+    "key_metrics",
+    "key_findings",
+    "data_sources",
+    "workflow",
+    "methodology",
+    "limitations",
+    "reproducibility",
+    "citation"
+  ],
+  "properties": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "description": { "type": "string" },
+    "status": { "type": "string" },
+    "repository_url": { "type": "string", "format": "uri" },
+    "dashboard_url": { "type": "string" },
+    "paper_url": { "type": "string" },
+    "portfolio_url": { "type": "string", "format": "uri" },
+    "hero_image": {
+      "type": "object",
+      "properties": {
+        "src": { "type": "string" },
+        "alt": { "type": "string" }
+      }
+    },
+    "author": {
+      "type": "object",
+      "required": ["name", "role", "profile_url"],
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "profile_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "labs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "executive_summary": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "key_metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "value"],
+        "properties": {
+          "label": { "type": "string" },
+          "value": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "key_findings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "dashboard": {
+      "type": "object",
+      "properties": {
+        "url": { "type": "string" },
+        "status": { "type": "string" },
+        "preview_image": { "type": "string" },
+        "preview_alt": { "type": "string" }
+      }
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "src", "alt"],
+        "properties": {
+          "title": { "type": "string" },
+          "src": { "type": "string" },
+          "alt": { "type": "string" },
+          "caption": { "type": "string" }
+        }
+      }
+    },
+    "tables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "data_sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "workflow": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "methodology": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "reports": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "reproducibility": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "citation": {
+      "type": "object",
+      "required": ["text"],
+      "properties": {
+        "text": { "type": "string" },
+        "doi": { "type": "string" },
+        "citation_file": { "type": "string" }
+      }
+    },
+    "related_projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "lab": { "type": "string" }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
