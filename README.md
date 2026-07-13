@@ -7,10 +7,10 @@ Development Analytics | Public Policy | Data Science | Business Intelligence
 
 ## Professional Portfolio Website
 
-[![Open Portfolio](https://img.shields.io/badge/Open-Professional%20Portfolio-B23A48?style=for-the-badge)](https://monicact.github.io/)
-[![Project Catalog](https://img.shields.io/badge/View-Project%20Catalog-2F5F8F?style=for-the-badge)](https://monicact.github.io/projects.html)
-[![Web CV](https://img.shields.io/badge/Open-Web%20CV-1F7A8C?style=for-the-badge)](https://monicact.github.io/cv.html)
-[![Publications](https://img.shields.io/badge/Research-Outputs-E58F2A?style=for-the-badge)](https://monicact.github.io/publications.html)
+[![Open Portfolio](https://img.shields.io/badge/Open-Professional%20Portfolio-B23A48?style=for-the-badge)](https://monicact.github.io/MonicaCT/)
+[![Project Catalog](https://img.shields.io/badge/View-Project%20Catalog-2F5F8F?style=for-the-badge)](https://monicact.github.io/MonicaCT/projects.html)
+[![Web CV](https://img.shields.io/badge/Open-Web%20CV-1F7A8C?style=for-the-badge)](https://monicact.github.io/MonicaCT/cv.html)
+[![Publications](https://img.shields.io/badge/Research-Outputs-E58F2A?style=for-the-badge)](https://monicact.github.io/MonicaCT/publications.html)
 
 I transform complex socioeconomic, financial, spatial and administrative data into reproducible evidence, decision-oriented dashboards and policy-relevant analytical products.
 
@@ -120,7 +120,7 @@ Some older repositories are useful as methods or teaching material, but they rem
 
 ## CV
 
-A privacy-reviewed web CV is available at [monicact.github.io/cv.html](https://monicact.github.io/cv.html). The original PDF is not published here because the reviewed source includes private contact data.
+A privacy-reviewed web CV is available at [monicact.github.io/cv.html](https://monicact.github.io/MonicaCT/cv.html). The original PDF is not published here because the reviewed source includes private contact data.
 
 ## Contact
 
