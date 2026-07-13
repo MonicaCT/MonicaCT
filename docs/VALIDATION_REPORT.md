@@ -28,7 +28,7 @@ Validated outputs:
 | Badges | PASS | README badges use stable shields.io badge URLs. |
 | Profile navigation | PASS | Home, Projects, Publications, CV and GitHub navigation included. |
 | Portfolio navigation | PASS | Project pages link back to the main portfolio and existing repositories. |
-| Privacy | PASS | No local file paths, private contact details, personal IDs, credentials, secrets or private raw data added. |
+| Privacy | PASS | No local file paths, private contact details, personal IDs, credential-like strings or private raw data added. |
 | CV privacy | PASS | Original PDF was not published because the reviewed source includes private contact data. |
 | Large files | PASS | No large unnecessary files added. |
 | Mobile structure | PASS | Viewport metadata, responsive breakpoints and mobile navigation are present. |
@@ -58,3 +58,17 @@ Settings > Pages > Deploy from a branch > main > /docs
 ## Final Status
 
 WARNING: implementation is complete and valid locally; public profile Pages publication requires human configuration.
+## Final Portfolio Web QA - 2026-07-13
+
+| Check | Status | Notes |
+|---|---|---|
+| Included repositories checked | PASS | Eight authorized repositories were checked once locally. |
+| `docs/index.html` coverage | PASS | All included repositories now have a `docs/index.html` file. |
+| Poverty publication repair | PASS | `poverty-informality-social-protection-lac` now has a portfolio website and a non-empty dashboard publication path. |
+| Relative links | PASS | No broken local relative links were found in checked `docs/index.html` files. |
+| README product links | PASS | Main product links are present in checked README files. |
+| Project catalog | PASS | `projects.json` now distinguishes dashboard/report/gallery product types where needed. |
+| Git diff checks | PASS | `git diff --check` passed for all included repositories. |
+| GitHub Pages | WARNING | Public deployment still depends on repository Settings > Pages where not already enabled. |
+
+Detailed matrix: `docs/PORTFOLIO_WEB_STATUS.md`.
