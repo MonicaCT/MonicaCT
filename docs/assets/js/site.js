@@ -1,4 +1,25 @@
-﻿const menuButton = document.querySelector(".nav-toggle");
+function normalizeGlobalNavigation() {
+  const nav = document.querySelector(".main-nav");
+  if (!nav) return;
+
+  const links = [
+    ["index.html", "Home"],
+    ["recruiter.html", "Recruiter Mode"],
+    ["research.html", "Research Mode"],
+    ["case-studies.html", "Case Studies"],
+    ["projects.html", "Projects"],
+    ["publications.html", "Publications"],
+    ["cv.html", "CV"]
+  ];
+  const current = window.location.pathname.split("/").pop() || "index.html";
+  nav.innerHTML = links.map(([href, label]) => {
+    const active = current === href ? ' aria-current="page"' : "";
+    return `<a href="${href}"${active}>${label}</a>`;
+  }).join("");
+}
+
+normalizeGlobalNavigation();
+const menuButton = document.querySelector(".nav-toggle");
 const mainNav = document.querySelector(".main-nav");
 
 if (menuButton && mainNav) {
