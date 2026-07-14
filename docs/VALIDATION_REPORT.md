@@ -99,7 +99,7 @@ Validation notes:
 - No flagship repository was modified.
 - No data, results, papers, dashboards, figures or models were modified.
 - `docs/cv.html`, `docs/publications.html` and `site-template/` were not modified.
-- Power BI and Tableau are labelled `PLANNED` where artifacts are not yet publicly available.
+- Power BI and Tableau are labelled `BUILD PACKAGE READY` where artifacts are not yet publicly available.
 - The case-study page contains exactly three flagship case studies.
 - Recruiter Mode uses existing lightweight filter behavior from `docs/assets/js/site.js`.
 
@@ -133,7 +133,7 @@ Validation notes:
 - `docs/cv.html`, `docs/publications.html`, `docs/projects.html`, `docs/recruiter.html`, `docs/case-studies.html` and `site-template/` were not modified.
 - Research Mode separates `PEER_REVIEWED`, `WORKING_PAPER`, `TECHNICAL_REPORT`, `POLICY_REPORT`, `DASHBOARD` and `RESEARCH_PROJECT` states.
 - Impact indicators avoid views, downloads, citations, users and beneficiary claims.
-- Power BI and Tableau remain planned/build-package-ready where no public artifact exists.
+- Power BI and Tableau remain BUILD PACKAGE READY where no public artifact exists.
 
 ## Stage UX-3 - Evidence-Based CV Alignment and Final Portfolio QA
 
@@ -157,10 +157,26 @@ Validation notes:
 - No flagship repository was modified.
 - No datasets, scientific outputs, papers, models, dashboards, figures or analytical results were modified.
 - The CV includes exactly five selected analytics projects.
-- Power BI and Tableau are presented as build-package-ready practical workflows, not as advanced deployed tools.
+- Power BI and Tableau are presented as BUILD PACKAGE READY practical workflows, not as advanced deployed tools.
 - Education wording remains neutral pending final human confirmation.
 - Publications and research outputs are separated by evidence type.
 - JSON files parse locally and relative links resolve to existing local files.
 - Live external HTTP checks were not repeated under the no-web/no-reverification restriction.
 
 Detailed QA: `docs/PORTFOLIO_FINAL_QA.md`.
+
+## Final Polish - High-Impact Consistency and Link Corrections
+
+Date: 2026-07-14
+
+Scope: final consistency corrections in `MonicaCT/MonicaCT` only.
+
+Validation notes:
+
+- Professional title standardized as `Applied Economist & Development Data Analyst`.
+- Public CV links point to `https://monicact.github.io/MonicaCT/cv.html` or local `cv.html` routes.
+- Economic Complexity is listed as a published Website with Interactive Explorer, Working Paper, Policy Brief and DOI.
+- Recruiter-first path is visible from Home: Recruiter Mode, Case Studies and Web CV.
+- Product labels use standardized language across the central portal catalog.
+- Power BI and Tableau states use `BUILD PACKAGE READY` where applicable and are not presented as deployed public dashboards.
+- GIS remains `LIMITED / PROJECT-SPECIFIC`.

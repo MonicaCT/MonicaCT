@@ -1,6 +1,6 @@
 # Monica Cueto Tapia
 
-Applied Economist & Data Analyst
+Applied Economist & Development Data Analyst
 Development Analytics | Public Policy | Data Science | Business Intelligence
 
 ![Profile banner](assets/profile-banner.svg)
@@ -22,7 +22,7 @@ I work at the intersection of applied economics, quantitative public policy, dev
 
 | Portfolio signal | Current focus |
 |---|---|
-| Professional identity | Applied Economist & Data Analyst |
+| Professional identity | Applied Economist & Development Data Analyst |
 | Research organization | Six research Labs built around capabilities and methods |
 | Methods | Econometrics, spatial analysis, impact evaluation, forecasting, machine learning, BI |
 | Open science | Reproducible repositories, validation reports, GitHub Pages, Zenodo and DOI when appropriate |
@@ -32,12 +32,12 @@ I work at the intersection of applied economics, quantitative public policy, dev
 
 | Lab | Purpose | Selected repositories |
 |---|---|---|
-| Applied Economics Lab | Poverty, labor markets, financial development, structural transformation and productive capabilities | [economic complexity](https://github.com/MonicaCT/economic-complexity-structural-transformation-lac), [financial development](https://github.com/MonicaCT/latin-america-financial-development-lab), [poverty and social protection](https://github.com/MonicaCT/poverty-informality-social-protection-lac) |
-| Research Methods Lab | Econometrics, spatial analysis, robustness, impact evaluation and modelling | [SpatialEconometrics_education](https://github.com/MonicaCT/SpatialEconometrics_education), [SAMmultiplayer](https://github.com/MonicaCT/SAMmultiplayer), [data science requirements](https://github.com/MonicaCT/data-science-requirements-breast-cancer) |
-| Development Analytics Lab | Survey analytics, territorial indicators, vulnerability analysis and monitoring systems | [poverty and social protection](https://github.com/MonicaCT/poverty-informality-social-protection-lac), [credit risk](https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia), [structural vulnerability](https://github.com/MonicaCT/structural-vulnerability-lac-research), [rural housing](https://github.com/MonicaCT/rural-bolivia-housing-analytics) |
-| Business Intelligence Lab | KPI systems, executive dashboards and analytical products for decision support | [credit risk report](https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/), [financial development dashboard](https://monicact.github.io/latin-america-financial-development-lab/) |
-| Data Science Lab | Python workflows, validation, automation, model documentation and technical reporting | [data science requirements](https://github.com/MonicaCT/data-science-requirements-breast-cancer), [rural housing](https://github.com/MonicaCT/rural-bolivia-housing-analytics), [economic complexity](https://github.com/MonicaCT/economic-complexity-structural-transformation-lac) |
-| Open Science Lab | Documentation, validation, citation metadata, releases and reproducibility guides | [economic complexity DOI release](https://doi.org/10.5281/zenodo.21314881), [poverty repository](https://github.com/MonicaCT/poverty-informality-social-protection-lac), [rural housing repository](https://github.com/MonicaCT/rural-bolivia-housing-analytics) |
+| Applied Economics Lab | Poverty, labor markets, financial development, structural transformation and productive capabilities. Best for Applied Economist and Research Analyst roles. | [economic complexity](https://github.com/MonicaCT/economic-complexity-structural-transformation-lac), [financial development](https://github.com/MonicaCT/latin-america-financial-development-lab), [poverty and social protection](https://github.com/MonicaCT/poverty-informality-social-protection-lac) |
+| Research Methods Lab | Econometrics, spatial analysis, robustness, impact evaluation and modelling. Best for Research Analyst and doctoral-review audiences. | [SpatialEconometrics_education](https://github.com/MonicaCT/SpatialEconometrics_education), [SAMmultiplayer](https://github.com/MonicaCT/SAMmultiplayer), [data science requirements](https://github.com/MonicaCT/data-science-requirements-breast-cancer) |
+| Development Analytics Lab | Survey analytics, territorial indicators, vulnerability analysis and monitoring systems. Best for Development Data Analyst and Policy Data Analyst roles. | [poverty and social protection](https://github.com/MonicaCT/poverty-informality-social-protection-lac), [credit risk](https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia), [structural vulnerability](https://github.com/MonicaCT/structural-vulnerability-lac-research), [rural housing](https://github.com/MonicaCT/rural-bolivia-housing-analytics) |
+| Business Intelligence Lab | KPI systems, executive dashboards and analytical products for decision support. Best for Data Analyst and BI Analyst roles. | [credit risk report](https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/), [financial development dashboard](https://monicact.github.io/latin-america-financial-development-lab/) |
+| Data Science Lab | Python workflows, validation, automation, model documentation and technical reporting. Best for Data Analyst and Research Data Analyst roles. | [data science requirements](https://github.com/MonicaCT/data-science-requirements-breast-cancer), [rural housing](https://github.com/MonicaCT/rural-bolivia-housing-analytics), [economic complexity](https://github.com/MonicaCT/economic-complexity-structural-transformation-lac) |
+| Open Science Lab | Documentation, validation, citation metadata, releases and reproducibility guides. Best for reproducible research and open-science review. | [economic complexity DOI release](https://doi.org/10.5281/zenodo.21314881), [poverty repository](https://github.com/MonicaCT/poverty-informality-social-protection-lac), [rural housing repository](https://github.com/MonicaCT/rural-bolivia-housing-analytics) |
 
 ## Featured Projects
 
@@ -54,8 +54,8 @@ I work at the intersection of applied economics, quantitative public policy, dev
 | [Inclusive Credit Risk Analytics Bolivia](https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia) | Credit portfolio diagnostics, forecasting, stress testing and executive reporting | [public report](https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/) |
 | [Economic Complexity and Structural Transformation in Latin America](https://github.com/MonicaCT/economic-complexity-structural-transformation-lac) | RCA, ECI, PCI, Product Space, panel econometrics and Bolivia opportunity ranking | [paper](https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/blob/main/paper/main.pdf), [DOI](https://doi.org/10.5281/zenodo.21314881) |
 | [Poverty, Informality and Social Protection in Latin America](https://github.com/MonicaCT/poverty-informality-social-protection-lac) | Multi-source indicators, country-year panels, validation and dashboard communication | [dashboard](https://monicact.github.io/poverty-informality-social-protection-lac/dashboard/) |
-| [Latin America Financial Development Lab](https://github.com/MonicaCT/latin-america-financial-development-lab) | Financial development indicators, PCA, clustering and executive reports | [public page](https://monicact.github.io/latin-america-financial-development-lab/) |
-| [Structural Vulnerability in Latin America](https://github.com/MonicaCT/structural-vulnerability-lac-research) | Structural vulnerability indicators, econometric summaries and policy-facing figures | [public page](https://monicact.github.io/structural-vulnerability-lac-research/) |
+| [Latin America Financial Development Lab](https://github.com/MonicaCT/latin-america-financial-development-lab) | Financial development indicators, PCA, clustering and executive reports | [Website](https://monicact.github.io/latin-america-financial-development-lab/) |
+| [Structural Vulnerability in Latin America](https://github.com/MonicaCT/structural-vulnerability-lac-research) | Structural vulnerability indicators, econometric summaries and policy-facing figures | [Website](https://monicact.github.io/structural-vulnerability-lac-research/) |
 | [Rural Bolivia Housing Analytics](https://github.com/MonicaCT/rural-bolivia-housing-analytics) | Privacy-first household survey analytics, validation and reproducible reporting | [public report](https://monicact.github.io/rural-bolivia-housing-analytics/) |
 | [Data Science Requirements - Breast Cancer](https://github.com/MonicaCT/data-science-requirements-breast-cancer) | Requirements engineering, validation and technical reporting with a public benchmark dataset | [technical report](https://github.com/MonicaCT/data-science-requirements-breast-cancer/blob/main/report/final_report.pdf) |
 
@@ -74,19 +74,19 @@ I work at the intersection of applied economics, quantitative public policy, dev
 
 ### Policy reports
 
-- Estimates of Public Social Expenditure and Spending on Children and Adolescents. UDAPE / UNICEF. [Open report](https://www.udape.gob.bo/wp-content/uploads/2023/03/LIBRO-gasto2017.pdf).
-- External Boom, Fiscal Policy and Long-run Growth in Bolivia: A CGE Approach. Partnership for Economic Policy. [Open report](https://portal.pep-net.org/document/download/30318).
+- Estimates of Public Social Expenditure and Spending on Children and Adolescents. UDAPE / UNICEF. [Policy Report](https://www.udape.gob.bo/wp-content/uploads/2023/03/LIBRO-gasto2017.pdf).
+- External Boom, Fiscal Policy and Long-run Growth in Bolivia: A CGE Approach. Partnership for Economic Policy. [Policy Report](https://portal.pep-net.org/document/download/30318).
 
 ## Dashboards
 
-| Dashboard or report | Purpose | Status | Link |
+| Product | Purpose | Status | Link |
 |---|---|---|---|
-| Inclusive Credit Risk Analytics | Credit risk and financial inclusion reporting | Live public report | [open report](https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/) |
-| Poverty and Social Protection dashboard | LAC poverty, informality and social protection indicators | Live static dashboard | [open dashboard](https://monicact.github.io/poverty-informality-social-protection-lac/dashboard/) |
-| Financial Development Lab | Financial development indicators and dashboard outputs | Live public page | [open page](https://monicact.github.io/latin-america-financial-development-lab/) |
-| Structural Vulnerability | Development vulnerability outputs | Live public page | [open page](https://monicact.github.io/structural-vulnerability-lac-research/) |
-| Rural Bolivia Housing Analytics | Survey-based housing analytics | Live public report | [open report](https://monicact.github.io/rural-bolivia-housing-analytics/) |
-| Economic Complexity dashboard | Regional complexity, Product Space and Bolivia opportunities | Technical content complete; GitHub Pages pending manual configuration | [repository page file](https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/blob/main/docs/index.html) |
+| Inclusive Credit Risk Analytics | Credit risk and financial inclusion reporting | Published Analytical Report | [Analytical Report](https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/) |
+| Poverty and Social Protection Dashboard | LAC poverty, informality and social protection indicators | Published Dashboard | [Dashboard](https://monicact.github.io/poverty-informality-social-protection-lac/dashboard/) |
+| Financial Development Lab | Financial development indicators and dashboard outputs | Published Website | [Website](https://monicact.github.io/latin-america-financial-development-lab/) |
+| Structural Vulnerability | Development vulnerability outputs | Published Website | [Website](https://monicact.github.io/structural-vulnerability-lac-research/) |
+| Rural Bolivia Housing Analytics | Survey-based housing analytics | Published Analytical Report | [Analytical Report](https://monicact.github.io/rural-bolivia-housing-analytics/) |
+| Economic Complexity Interactive Explorer | Regional complexity, Product Space and Bolivia opportunities | Published Interactive Explorer | [Interactive Explorer](https://monicact.github.io/economic-complexity-structural-transformation-lac/) |
 
 ## Datasets and Replication Assets
 
@@ -120,7 +120,7 @@ Some older repositories are useful as methods or teaching material, but they rem
 
 ## CV
 
-A privacy-reviewed web CV is available at [monicact.github.io/cv.html](https://monicact.github.io/MonicaCT/cv.html). The original PDF is not published here because the reviewed source includes private contact data.
+A privacy-reviewed web CV is available at [monicact.github.io/MonicaCT/cv.html](https://monicact.github.io/MonicaCT/cv.html). The original PDF is not published here because the reviewed source includes private contact data.
 
 ## Contact
 

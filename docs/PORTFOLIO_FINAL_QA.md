@@ -26,8 +26,8 @@ Scope: Stage UX-3 final quality assurance for `MonicaCT/MonicaCT` only. This rev
 | CV headline | PASS | Uses `Monica Cueto Tapia` and `Applied Economist & Development Data Analyst`. |
 | Professional summary | PASS | Under 120 words and limited to public evidence. |
 | Selected projects | PASS | Exactly five projects are featured. |
-| Power BI | PASS | Labelled as build-package-ready practical workflow, not as an advanced deployed product. |
-| Tableau | PASS | Labelled as build-package-ready practical workflow, not as a published interactive workbook. |
+| Power BI | PASS | Labelled as BUILD PACKAGE READY practical workflow, not as an advanced deployed product. |
+| Tableau | PASS | Labelled as BUILD PACKAGE READY practical workflow, not as a published interactive workbook. |
 | Analytics engineering | PASS | Framed as developing capacity through SQL, DuckDB, data models and validation layers. |
 | Education wording | PASS | Uses neutral wording for ongoing doctoral studies pending final human confirmation. |
 | Publications | PASS | Distinguishes peer-reviewed publications, working papers, technical reports, policy reports and research projects. |

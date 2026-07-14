@@ -1,56 +1,124 @@
 [
-  {
-    "title": "Inclusive Credit Risk Analytics Bolivia",
-    "problem": "Credit and inclusion teams need a clear view of portfolio risk, inclusion indicators, stress signals and executive KPIs.",
-    "users": ["BI recruiter", "financial inclusion team", "risk analytics reviewer"],
-    "data": "Public-facing aggregate analytical outputs and privacy-reviewed documentation.",
-    "analytical_workflow": "Portfolio diagnostics, KPI design, risk segmentation, forecasting/stress communication, validation and public reporting.",
-    "tools": ["R", "Quarto", "GitHub Pages", "SQL-ready documentation", "Power BI planned"],
-    "outputs": ["Public analytical report", "dashboard-style report", "repository", "validation and provenance documentation"],
-    "key_findings": "Demonstrates credit portfolio monitoring and financial-inclusion analytics through executive reporting rather than raw-data exposure.",
-    "limitations": "Power BI remains planned until a real public artifact or documented export is available.",
-    "skills_demonstrated": ["BI communication", "KPI design", "risk analytics", "privacy-aware reporting", "reproducibility"],
-    "links": {
-      "project": "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
-      "dashboard": "https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/",
-      "methodology": "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
-      "sql": "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia"
+    {
+        "title":  "Inclusive Credit Risk Analytics Bolivia",
+        "problem":  "Credit and inclusion teams need a clear view of portfolio risk, inclusion indicators, stress signals and executive KPIs.",
+        "users":  [
+                      "BI recruiter",
+                      "financial inclusion team",
+                      "risk analytics reviewer"
+                  ],
+        "data":  "Public-facing aggregate analytical outputs and privacy-reviewed documentation.",
+        "analytical_workflow":  "Portfolio diagnostics, KPI design, risk segmentation, forecasting/stress communication, validation and public reporting.",
+        "tools":  [
+                      "R",
+                      "Quarto",
+                      "GitHub Pages",
+                      "SQL-ready documentation",
+                      "Power BI BUILD PACKAGE READY"
+                  ],
+        "outputs":  [
+                        "Analytical Report",
+                        "Case Study",
+                        "Methodology",
+                        "Repository"
+                    ],
+        "key_findings":  "Demonstrates credit portfolio monitoring and financial-inclusion analytics through executive reporting rather than raw-data exposure.",
+        "limitations":  "Power BI is BUILD PACKAGE READY as a documented build package; it is not presented as a deployed public dashboard.",
+        "skills_demonstrated":  [
+                                    "BI communication",
+                                    "KPI design",
+                                    "risk analytics",
+                                    "privacy-aware reporting",
+                                    "reproducibility"
+                                ],
+        "links":  {
+                      "project":  "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
+                      "dashboard":  "https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/",
+                      "methodology":  "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
+                      "sql":  "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia"
+                  }
+    },
+    {
+        "title":  "Poverty, Informality and Social Protection in LAC",
+        "problem":  "Policy and development teams need comparable country-year indicators linking poverty, labor informality and social protection coverage.",
+        "users":  [
+                      "development data analyst recruiter",
+                      "policy team",
+                      "research data analyst"
+                  ],
+        "data":  "Public country-year analytical products, validation outputs, figures, tables and dashboard artifacts.",
+        "analytical_workflow":  "Multi-source indicator integration, country-year panel construction, missingness review, validation and dashboard communication.",
+        "tools":  [
+                      "Python",
+                      "HTML",
+                      "GitHub Pages",
+                      "validation reports",
+                      "Tableau BUILD PACKAGE READY"
+                  ],
+        "outputs":  [
+                        "Website",
+                        "Dashboard",
+                        "Case Study",
+                        "Methodology",
+                        "Repository"
+                    ],
+        "key_findings":  "Shows policy-oriented data integration and development analytics with transparent validation and public navigation.",
+        "limitations":  "Tableau is BUILD PACKAGE READY as a documented build package; it is not presented as a deployed public dashboard.",
+        "skills_demonstrated":  [
+                                    "Python data processing",
+                                    "development indicators",
+                                    "data quality",
+                                    "dashboard communication",
+                                    "policy analytics"
+                                ],
+        "links":  {
+                      "project":  "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
+                      "dashboard":  "https://monicact.github.io/poverty-informality-social-protection-lac/dashboard/",
+                      "methodology":  "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
+                      "sql":  "https://github.com/MonicaCT/poverty-informality-social-protection-lac"
+                  }
+    },
+    {
+        "title":  "Economic Complexity and Structural Transformation in LAC",
+        "problem":  "Research and policy audiences need to understand productive capabilities, diversification constraints and Bolivia\u0027s feasible opportunity space.",
+        "users":  [
+                      "research data analyst recruiter",
+                      "development economist",
+                      "international organization reviewer"
+                  ],
+        "data":  "Public derived country-product-year outputs, Product Space diagnostics, validation files, paper, policy brief and DOI metadata.",
+        "analytical_workflow":  "RCA, ECI, PCI, Product Space proximity, opportunity screening, data-quality validation, paper and policy communication.",
+        "tools":  [
+                      "R",
+                      "Shiny",
+                      "Quarto",
+                      "SQL contracts",
+                      "DuckDB-ready data model"
+                  ],
+        "outputs":  [
+                        "Website",
+                        "Interactive Explorer",
+                        "Case Study",
+                        "Working Paper",
+                        "Policy Brief",
+                        "Methodology",
+                        "SQL / Data Model",
+                        "Repository"
+                    ],
+        "key_findings":  "Demonstrates advanced applied economics, network analytics and cautious policy interpretation using reproducible public outputs.",
+        "limitations":  "Opportunity scores are screening tools, not investment recommendations; fixed-effects estimates are observational associations.",
+        "skills_demonstrated":  [
+                                    "R",
+                                    "economic complexity",
+                                    "network analytics",
+                                    "SQL contracts",
+                                    "scientific communication"
+                                ],
+        "links":  {
+                      "project":  "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac",
+                      "dashboard":  "https://monicact.github.io/economic-complexity-structural-transformation-lac/",
+                      "methodology":  "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/blob/main/docs/METHODOLOGY.md",
+                      "sql":  "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/tree/main/sql"
+                  }
     }
-  },
-  {
-    "title": "Poverty, Informality and Social Protection in LAC",
-    "problem": "Policy and development teams need comparable country-year indicators linking poverty, labor informality and social protection coverage.",
-    "users": ["development data analyst recruiter", "policy team", "research data analyst"],
-    "data": "Public country-year analytical products, validation outputs, figures, tables and dashboard artifacts.",
-    "analytical_workflow": "Multi-source indicator integration, country-year panel construction, missingness review, validation and dashboard communication.",
-    "tools": ["Python", "HTML", "GitHub Pages", "validation reports", "Tableau planned"],
-    "outputs": ["Public page", "interactive/static dashboard", "figures", "tables", "analytical artifact catalog"],
-    "key_findings": "Shows policy-oriented data integration and development analytics with transparent validation and public navigation.",
-    "limitations": "Tableau storytelling remains planned until a real workbook, public story, PDF export or screenshots are published.",
-    "skills_demonstrated": ["Python data processing", "development indicators", "data quality", "dashboard communication", "policy analytics"],
-    "links": {
-      "project": "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
-      "dashboard": "https://monicact.github.io/poverty-informality-social-protection-lac/dashboard/",
-      "methodology": "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
-      "sql": "https://github.com/MonicaCT/poverty-informality-social-protection-lac"
-    }
-  },
-  {
-    "title": "Economic Complexity and Structural Transformation in LAC",
-    "problem": "Research and policy audiences need to understand productive capabilities, diversification constraints and Bolivia's feasible opportunity space.",
-    "users": ["research data analyst recruiter", "development economist", "international organization reviewer"],
-    "data": "Public derived country-product-year outputs, Product Space diagnostics, validation files, paper, policy brief and DOI metadata.",
-    "analytical_workflow": "RCA, ECI, PCI, Product Space proximity, opportunity screening, data-quality validation, paper and policy communication.",
-    "tools": ["R", "Shiny", "Quarto", "SQL contracts", "DuckDB-ready data model"],
-    "outputs": ["Paper", "policy brief", "interactive explorer", "SQL contracts", "Zenodo DOI"],
-    "key_findings": "Demonstrates advanced applied economics, network analytics and cautious policy interpretation using reproducible public outputs.",
-    "limitations": "Opportunity scores are screening tools, not investment recommendations; fixed-effects estimates are observational associations.",
-    "skills_demonstrated": ["R", "economic complexity", "network analytics", "SQL contracts", "scientific communication"],
-    "links": {
-      "project": "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac",
-      "dashboard": "https://monicact.github.io/economic-complexity-structural-transformation-lac/explore/",
-      "methodology": "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/blob/main/docs/METHODOLOGY.md",
-      "sql": "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/tree/main/sql"
-    }
-  }
 ]

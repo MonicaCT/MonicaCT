@@ -1,113 +1,113 @@
 [
-  {
-    "skill": "SQL",
-    "category": "Data and analytics engineering",
-    "evidence_level": "MODERATE",
-    "supporting_projects": [
-      "Inclusive Credit Risk Analytics Bolivia",
-      "Economic Complexity and Structural Transformation in LAC",
-      "Rural Bolivia Housing Analytics"
-    ],
-    "evidence_type": "SQL contracts, data models, validation queries and repository documentation",
-    "public_link": "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/tree/main/sql",
-    "notes": "SQL evidence is visible but should remain labelled MODERATE until more advanced query walkthroughs are centralized."
-  },
-  {
-    "skill": "Python",
-    "category": "Programming",
-    "evidence_level": "STRONG",
-    "supporting_projects": [
-      "Poverty, Informality and Social Protection in LAC",
-      "Rural Bolivia Housing Analytics",
-      "Data Science Requirements - Breast Cancer"
-    ],
-    "evidence_type": "data processing, validation, reporting workflows and public technical documentation",
-    "public_link": "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
-    "notes": "Python is backed by public repositories and visible analytical products."
-  },
-  {
-    "skill": "R",
-    "category": "Programming and applied research",
-    "evidence_level": "STRONG",
-    "supporting_projects": [
-      "Economic Complexity and Structural Transformation in LAC",
-      "Inclusive Credit Risk Analytics Bolivia",
-      "Latin America Financial Development Lab"
-    ],
-    "evidence_type": "R workflows, Quarto reports, Shiny/dashboard code and research outputs",
-    "public_link": "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac",
-    "notes": "R is a strong public signal across applied economics and reporting projects."
-  },
-  {
-    "skill": "Power BI",
-    "category": "Business intelligence",
-    "evidence_level": "PLANNED",
-    "supporting_projects": [
-      "Inclusive Credit Risk Analytics Bolivia"
-    ],
-    "evidence_type": "handoff and future BI model documentation",
-    "public_link": "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
-    "notes": "Power BI must remain PLANNED until a real public artifact, PDF export, screenshots or model documentation are published."
-  },
-  {
-    "skill": "Tableau",
-    "category": "Business intelligence and visual storytelling",
-    "evidence_level": "PLANNED",
-    "supporting_projects": [
-      "Poverty, Informality and Social Protection in LAC",
-      "Economic Complexity and Structural Transformation in LAC"
-    ],
-    "evidence_type": "planned storytelling artifact",
-    "public_link": "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
-    "notes": "Tableau must remain PLANNED until a workbook, public story, PDF export or documented screenshots exist."
-  },
-  {
-    "skill": "DuckDB",
-    "category": "Analytics engineering",
-    "evidence_level": "MODERATE",
-    "supporting_projects": [
-      "Economic Complexity and Structural Transformation in LAC",
-      "Inclusive Credit Risk Analytics Bolivia"
-    ],
-    "evidence_type": "documented data model and SQL-ready analytical contracts",
-    "public_link": "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/tree/main/sql",
-    "notes": "DuckDB evidence is architectural and query-contract based; no private database files are published."
-  },
-  {
-    "skill": "GitHub",
-    "category": "Open science and delivery",
-    "evidence_level": "STRONG",
-    "supporting_projects": [
-      "Portfolio platform",
-      "Economic Complexity and Structural Transformation in LAC",
-      "Poverty, Informality and Social Protection in LAC"
-    ],
-    "evidence_type": "public repositories, GitHub Pages, validation reports, releases and DOI where available",
-    "public_link": "https://github.com/MonicaCT",
-    "notes": "GitHub is strongly evidenced by the integrated portfolio and public project structure."
-  },
-  {
-    "skill": "Quarto",
-    "category": "Reproducible reporting",
-    "evidence_level": "STRONG",
-    "supporting_projects": [
-      "Inclusive Credit Risk Analytics Bolivia",
-      "Economic Complexity and Structural Transformation in LAC"
-    ],
-    "evidence_type": "reproducible reports, technical documentation and research outputs",
-    "public_link": "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
-    "notes": "Quarto evidence is visible through reporting-oriented repositories."
-  },
-  {
-    "skill": "GIS",
-    "category": "Spatial and territorial analytics",
-    "evidence_level": "LIMITED",
-    "supporting_projects": [
-      "Rural Bolivia Housing Analytics",
-      "Structural Vulnerability in Latin America"
-    ],
-    "evidence_type": "territorial indicators and spatially aware analysis",
-    "public_link": "https://github.com/MonicaCT/rural-bolivia-housing-analytics",
-    "notes": "GIS is professionally relevant but should remain LIMITED until map-centric public products are foregrounded."
-  }
+    {
+        "skill":  "SQL",
+        "category":  "Data and analytics engineering",
+        "evidence_level":  "MODERATE",
+        "supporting_projects":  [
+                                    "Inclusive Credit Risk Analytics Bolivia",
+                                    "Economic Complexity and Structural Transformation in LAC",
+                                    "Rural Bolivia Housing Analytics"
+                                ],
+        "evidence_type":  "SQL contracts, data models, validation queries and repository documentation",
+        "public_link":  "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/tree/main/sql",
+        "notes":  "SQL evidence is visible but should remain labelled MODERATE until more advanced query walkthroughs are centralized."
+    },
+    {
+        "skill":  "Python",
+        "category":  "Programming",
+        "evidence_level":  "STRONG",
+        "supporting_projects":  [
+                                    "Poverty, Informality and Social Protection in LAC",
+                                    "Rural Bolivia Housing Analytics",
+                                    "Data Science Requirements - Breast Cancer"
+                                ],
+        "evidence_type":  "data processing, validation, reporting workflows and public technical documentation",
+        "public_link":  "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
+        "notes":  "Python is backed by public repositories and visible analytical products."
+    },
+    {
+        "skill":  "R",
+        "category":  "Programming and applied research",
+        "evidence_level":  "STRONG",
+        "supporting_projects":  [
+                                    "Economic Complexity and Structural Transformation in LAC",
+                                    "Inclusive Credit Risk Analytics Bolivia",
+                                    "Latin America Financial Development Lab"
+                                ],
+        "evidence_type":  "R workflows, Quarto reports, Shiny/dashboard code and research outputs",
+        "public_link":  "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac",
+        "notes":  "R is a strong public signal across applied economics and reporting projects."
+    },
+    {
+        "skill":  "Power BI",
+        "category":  "Business intelligence",
+        "evidence_level":  "BUILD PACKAGE READY",
+        "supporting_projects":  [
+                                    "Inclusive Credit Risk Analytics Bolivia"
+                                ],
+        "evidence_type":  "build_package_ready",
+        "public_link":  "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
+        "notes":  "Power BI evidence is a documented build package and practical workflow; it is not presented as a deployed public dashboard or STRONG evidence."
+    },
+    {
+        "skill":  "Tableau",
+        "category":  "Business intelligence and visual storytelling",
+        "evidence_level":  "BUILD PACKAGE READY",
+        "supporting_projects":  [
+                                    "Poverty, Informality and Social Protection in LAC",
+                                    "Economic Complexity and Structural Transformation in LAC"
+                                ],
+        "evidence_type":  "build_package_ready",
+        "public_link":  "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
+        "notes":  "Tableau evidence is a documented build package and practical workflow; it is not presented as a deployed public dashboard or STRONG evidence."
+    },
+    {
+        "skill":  "DuckDB",
+        "category":  "Analytics engineering",
+        "evidence_level":  "MODERATE",
+        "supporting_projects":  [
+                                    "Economic Complexity and Structural Transformation in LAC",
+                                    "Inclusive Credit Risk Analytics Bolivia"
+                                ],
+        "evidence_type":  "documented data model and SQL-ready analytical contracts",
+        "public_link":  "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/tree/main/sql",
+        "notes":  "DuckDB evidence is architectural and query-contract based; no private database files are published."
+    },
+    {
+        "skill":  "GitHub",
+        "category":  "Open science and delivery",
+        "evidence_level":  "STRONG",
+        "supporting_projects":  [
+                                    "Portfolio platform",
+                                    "Economic Complexity and Structural Transformation in LAC",
+                                    "Poverty, Informality and Social Protection in LAC"
+                                ],
+        "evidence_type":  "public repositories, GitHub Pages, validation reports, releases and DOI where available",
+        "public_link":  "https://github.com/MonicaCT",
+        "notes":  "GitHub is strongly evidenced by the integrated portfolio and public project structure."
+    },
+    {
+        "skill":  "Quarto",
+        "category":  "Reproducible reporting",
+        "evidence_level":  "STRONG",
+        "supporting_projects":  [
+                                    "Inclusive Credit Risk Analytics Bolivia",
+                                    "Economic Complexity and Structural Transformation in LAC"
+                                ],
+        "evidence_type":  "reproducible reports, technical documentation and research outputs",
+        "public_link":  "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
+        "notes":  "Quarto evidence is visible through reporting-oriented repositories."
+    },
+    {
+        "skill":  "GIS",
+        "category":  "Spatial and territorial analytics",
+        "evidence_level":  "LIMITED / PROJECT-SPECIFIC",
+        "supporting_projects":  [
+                                    "Rural Bolivia Housing Analytics",
+                                    "Structural Vulnerability in Latin America"
+                                ],
+        "evidence_type":  "territorial indicators and spatially aware analysis",
+        "public_link":  "https://github.com/MonicaCT/rural-bolivia-housing-analytics",
+        "notes":  "GIS remains project-specific evidence and is not presented as a central portfolio strength."
+    }
 ]

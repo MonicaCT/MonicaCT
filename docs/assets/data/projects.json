@@ -22,18 +22,18 @@
                       "dashboard reporting"
                   ],
         "product_type":  [
-                             "dashboard",
-                             "report",
-                             "repository"
+                             "Analytical Report",
+                             "Methodology",
+                             "Repository"
                          ],
         "demonstrated_capability":  "Credit portfolio diagnostics, risk monitoring, forecasting, stress testing and executive reporting.",
         "image":  "https://raw.githubusercontent.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia/main/assets/dashboard-screenshots/01_executive_overview.png",
         "repository":  "https://github.com/MonicaCT/InclusiveCreditRiskAnalytics-Bolivia",
         "dashboard_or_page":  "https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/",
         "paper_or_report":  "https://monicact.github.io/InclusiveCreditRiskAnalytics-Bolivia/",
-        "status":  "Published public report",
+        "status":  "Published Analytical Report",
         "dashboard_type":  "ANALYTICAL_REPORT",
-        "main_product":  "Public analytical report",
+        "main_product":  "Analytical Report",
         "pages_configuration_required":  "main / docs",
         "roles":  [
                       "Data Analyst",
@@ -41,9 +41,9 @@
                       "Policy Data Analyst"
                   ],
         "evidence_level":  "STRONG",
-        "evidence_note":  "Strong public evidence for KPI design, executive reporting and credit risk analytics; Power BI remains planned.",
-        "powerbi_status":  "PLANNED",
-        "tableau_status":  "NOT_PLANNED"
+        "evidence_note":  "Strong public evidence for KPI design, executive reporting and credit risk analytics; Power BI is BUILD PACKAGE READY and not presented as a deployed public dashboard.",
+        "powerbi_status":  "BUILD PACKAGE READY",
+        "tableau_status":  "NOT APPLICABLE"
     },
     {
         "slug":  "economic-complexity-structural-transformation-lac",
@@ -68,20 +68,23 @@
                       "panel econometrics"
                   ],
         "product_type":  [
-                             "paper",
-                             "dashboard",
-                             "policy brief",
-                             "repository"
+                             "Website",
+                             "Interactive Explorer",
+                             "Working Paper",
+                             "Policy Brief",
+                             "Methodology",
+                             "SQL / Data Model",
+                             "Repository"
                          ],
         "demonstrated_capability":  "RCA, ECI, PCI, Product Space, opportunity ranking and reproducible research release.",
         "image":  "https://raw.githubusercontent.com/MonicaCT/economic-complexity-structural-transformation-lac/main/docs/assets/repository_banner.png",
         "repository":  "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac",
         "dashboard_or_page":  "https://monicact.github.io/economic-complexity-structural-transformation-lac/",
         "paper_or_report":  "https://github.com/MonicaCT/economic-complexity-structural-transformation-lac/blob/main/paper/main.pdf",
-        "status":  "Technical content complete; Pages pending human configuration",
-        "dashboard_type":  "STATIC_GALLERY",
-        "main_product":  "Scientific website, paper, policy brief and static dashboard gallery",
-        "pages_configuration_required":  "PENDING HUMAN PAGES CONFIGURATION",
+        "status":  "Published Website with Interactive Explorer, Working Paper, Policy Brief and DOI",
+        "dashboard_type":  "INTERACTIVE_EXPLORER",
+        "main_product":  "Website with Interactive Explorer, Working Paper and Policy Brief",
+        "pages_configuration_required":  "main / docs",
         "roles":  [
                       "Data Analyst",
                       "Development Data Analyst",
@@ -90,9 +93,9 @@
                       "Analytics Engineer"
                   ],
         "evidence_level":  "STRONG",
-        "evidence_note":  "Strong applied research evidence with R, Product Space, SQL contracts, paper, policy brief and DOI.",
-        "powerbi_status":  "NOT_PLANNED",
-        "tableau_status":  "PLANNED"
+        "evidence_note":  "Strong applied research evidence with R, Product Space, SQL contracts, paper, policy brief and DOI; Tableau is BUILD PACKAGE READY and not presented as a deployed public dashboard.",
+        "powerbi_status":  "NOT APPLICABLE",
+        "tableau_status":  "BUILD PACKAGE READY"
     },
     {
         "slug":  "poverty-informality-social-protection-lac",
@@ -117,19 +120,19 @@
                       "validation reports"
                   ],
         "product_type":  [
-                             "dashboard",
-                             "figures",
-                             "tables",
-                             "repository"
+                             "Website",
+                             "Dashboard",
+                             "Methodology",
+                             "Repository"
                          ],
         "demonstrated_capability":  "Multi-source development indicators, country-year panels, data-quality validation and policy communication.",
         "image":  "https://raw.githubusercontent.com/MonicaCT/poverty-informality-social-protection-lac/main/assets/brand/repository-banner.png",
         "repository":  "https://github.com/MonicaCT/poverty-informality-social-protection-lac",
         "dashboard_or_page":  "https://monicact.github.io/poverty-informality-social-protection-lac/",
         "paper_or_report":  "https://github.com/MonicaCT/poverty-informality-social-protection-lac/blob/main/docs/ANALYTICAL_ARTIFACT_CATALOG.md",
-        "status":  "Published public page with interactive dashboard",
+        "status":  "Published Website with Dashboard",
         "dashboard_type":  "INTERACTIVE_WEB",
-        "main_product":  "Portfolio website with interactive dashboard",
+        "main_product":  "Website with Dashboard",
         "pages_configuration_required":  "main / docs",
         "roles":  [
                       "Data Analyst",
@@ -137,9 +140,9 @@
                       "Policy Data Analyst"
                   ],
         "evidence_level":  "STRONG",
-        "evidence_note":  "Strong public evidence for Python, policy indicators, validation and dashboard communication; Tableau remains planned.",
-        "powerbi_status":  "NOT_PLANNED",
-        "tableau_status":  "PLANNED"
+        "evidence_note":  "Strong public evidence for Python, policy indicators, validation and dashboard communication; Tableau is BUILD PACKAGE READY and not presented as a deployed public dashboard.",
+        "powerbi_status":  "NOT APPLICABLE",
+        "tableau_status":  "BUILD PACKAGE READY"
     },
     {
         "slug":  "latin-america-financial-development-lab",
@@ -164,19 +167,19 @@
                       "panel models"
                   ],
         "product_type":  [
-                             "dashboard",
-                             "figures",
-                             "tables",
-                             "report"
+                             "Website",
+                             "Dashboard",
+                             "Analytical Report",
+                             "Repository"
                          ],
         "demonstrated_capability":  "Comparative financial indicators, clustering, composite index construction and executive reporting.",
         "image":  "https://raw.githubusercontent.com/MonicaCT/latin-america-financial-development-lab/main/docs/assets/figures/figure_13_productive_transformation_dashboard_figure.png",
         "repository":  "https://github.com/MonicaCT/latin-america-financial-development-lab",
         "dashboard_or_page":  "https://monicact.github.io/latin-america-financial-development-lab/",
         "paper_or_report":  "https://github.com/MonicaCT/latin-america-financial-development-lab/blob/main/report/financial_development_report.pdf",
-        "status":  "Published public page",
+        "status":  "Published Website with Dashboard and Analytical Reports",
         "dashboard_type":  "INTERACTIVE_WEB",
-        "main_product":  "Public website with dashboard and reports",
+        "main_product":  "Website with Dashboard and Analytical Reports",
         "pages_configuration_required":  "main / docs; verify dashboard/report paths if Pages serves only docs",
         "roles":  [
                       "Research Data Analyst",
@@ -184,9 +187,9 @@
                       "Business Intelligence Analyst"
                   ],
         "evidence_level":  "MODERATE",
-        "evidence_note":  "Support evidence for finance and development indicators.",
-        "powerbi_status":  "PLANNED",
-        "tableau_status":  "NOT_PLANNED"
+        "evidence_note":  "Support evidence for finance and development indicators; Power BI is BUILD PACKAGE READY and not presented as a deployed public dashboard.",
+        "powerbi_status":  "BUILD PACKAGE READY",
+        "tableau_status":  "NOT APPLICABLE"
     },
     {
         "slug":  "structural-vulnerability-lac-research",
@@ -211,19 +214,20 @@
                       "model diagnostics"
                   ],
         "product_type":  [
-                             "paper",
-                             "dashboard",
-                             "figures",
-                             "tables"
+                             "Website",
+                             "Dashboard",
+                             "Working Paper",
+                             "Methodology",
+                             "Repository"
                          ],
         "demonstrated_capability":  "Indicator systems, vulnerability ranking, econometric model reporting and documentation.",
         "image":  "https://raw.githubusercontent.com/MonicaCT/structural-vulnerability-lac-research/main/outputs/figures/oecd_style/figure_01_structural_vulnerability_ranking.png",
         "repository":  "https://github.com/MonicaCT/structural-vulnerability-lac-research",
         "dashboard_or_page":  "https://monicact.github.io/structural-vulnerability-lac-research/",
         "paper_or_report":  "https://monicact.github.io/structural-vulnerability-lac-research/paper.html",
-        "status":  "Published public page",
+        "status":  "Published Website with Dashboard and Working Paper",
         "dashboard_type":  "STATIC_DASHBOARD",
-        "main_product":  "Public website with static dashboard, figures and paper page",
+        "main_product":  "Website with Dashboard and Working Paper",
         "pages_configuration_required":  "main / docs",
         "roles":  [
                       "Research Data Analyst",
@@ -231,9 +235,9 @@
                       "Policy Data Analyst"
                   ],
         "evidence_level":  "MODERATE",
-        "evidence_note":  "Support evidence for vulnerability research, econometric summaries and policy-facing limitations.",
-        "powerbi_status":  "NOT_PLANNED",
-        "tableau_status":  "PLANNED"
+        "evidence_note":  "Support evidence for vulnerability research, econometric summaries and policy-facing limitations; Tableau is BUILD PACKAGE READY and not presented as a deployed public dashboard.",
+        "powerbi_status":  "NOT APPLICABLE",
+        "tableau_status":  "BUILD PACKAGE READY"
     },
     {
         "slug":  "rural-bolivia-housing-analytics",
@@ -258,19 +262,18 @@
                       "GitHub Actions"
                   ],
         "product_type":  [
-                             "report",
-                             "figures",
-                             "validation",
-                             "repository"
+                             "Analytical Report",
+                             "Methodology",
+                             "Repository"
                          ],
         "demonstrated_capability":  "Privacy-first survey analytics, reproducible reporting, model summaries and validation checks.",
         "image":  "https://raw.githubusercontent.com/MonicaCT/rural-bolivia-housing-analytics/main/docs/figures/04_housing_by_zone.png",
         "repository":  "https://github.com/MonicaCT/rural-bolivia-housing-analytics",
         "dashboard_or_page":  "https://monicact.github.io/rural-bolivia-housing-analytics/",
         "paper_or_report":  "https://monicact.github.io/rural-bolivia-housing-analytics/research-paper.html",
-        "status":  "Published public report",
+        "status":  "Published Analytical Report",
         "dashboard_type":  "ANALYTICAL_REPORT",
-        "main_product":  "Public analytical report",
+        "main_product":  "Analytical Report",
         "pages_configuration_required":  "main / docs",
         "roles":  [
                       "Data Analyst",
@@ -279,8 +282,8 @@
                   ],
         "evidence_level":  "STRONG",
         "evidence_note":  "Strong privacy-first survey analytics evidence with Python, SQL and reproducible reporting.",
-        "powerbi_status":  "NOT_PLANNED",
-        "tableau_status":  "NOT_PLANNED"
+        "powerbi_status":  "NOT APPLICABLE",
+        "tableau_status":  "NOT APPLICABLE"
     },
     {
         "slug":  "data-science-requirements-breast-cancer",
@@ -304,18 +307,19 @@
                       "validation"
                   ],
         "product_type":  [
-                             "technical report",
-                             "figures",
-                             "repository"
+                             "Website",
+                             "Technical Report",
+                             "Methodology",
+                             "Repository"
                          ],
         "demonstrated_capability":  "Dataset comparison, missingness review, project architecture and reproducible technical communication.",
         "image":  "https://raw.githubusercontent.com/MonicaCT/data-science-requirements-breast-cancer/main/report/final_report_preview.png",
         "repository":  "https://github.com/MonicaCT/data-science-requirements-breast-cancer",
         "dashboard_or_page":  "https://monicact.github.io/data-science-requirements-breast-cancer/",
         "paper_or_report":  "https://github.com/MonicaCT/data-science-requirements-breast-cancer/blob/main/report/final_report.pdf",
-        "status":  "Published public page with technical report; no dashboard claimed",
+        "status":  "Published Website with Technical Report; no Dashboard claimed",
         "dashboard_type":  "ANALYTICAL_REPORT",
-        "main_product":  "Public website with final technical report",
+        "main_product":  "Website with Technical Report",
         "pages_configuration_required":  "main / docs",
         "roles":  [
                       "Data Analyst",
@@ -323,7 +327,7 @@
                   ],
         "evidence_level":  "MODERATE",
         "evidence_note":  "Specialized evidence for requirements engineering, data quality and technical reporting.",
-        "powerbi_status":  "NOT_PLANNED",
-        "tableau_status":  "NOT_PLANNED"
+        "powerbi_status":  "NOT APPLICABLE",
+        "tableau_status":  "NOT APPLICABLE"
     }
 ]
