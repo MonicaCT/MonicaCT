@@ -134,3 +134,33 @@ Validation notes:
 - Research Mode separates `PEER_REVIEWED`, `WORKING_PAPER`, `TECHNICAL_REPORT`, `POLICY_REPORT`, `DASHBOARD` and `RESEARCH_PROJECT` states.
 - Impact indicators avoid views, downloads, citations, users and beneficiary claims.
 - Power BI and Tableau remain planned/build-package-ready where no public artifact exists.
+
+## Stage UX-3 - Evidence-Based CV Alignment and Final Portfolio QA
+
+Date: 2026-07-14
+
+Scope: align the public web CV with existing portfolio evidence and document final local QA for `MonicaCT/MonicaCT` only.
+
+Files created:
+
+- `docs/assets/data/cv-evidence.json`
+- `docs/PORTFOLIO_FINAL_QA.md`
+
+Files updated:
+
+- `docs/cv.html`
+- `docs/index.html`
+- `docs/VALIDATION_REPORT.md`
+
+Validation notes:
+
+- No flagship repository was modified.
+- No datasets, scientific outputs, papers, models, dashboards, figures or analytical results were modified.
+- The CV includes exactly five selected analytics projects.
+- Power BI and Tableau are presented as build-package-ready practical workflows, not as advanced deployed tools.
+- Education wording remains neutral pending final human confirmation.
+- Publications and research outputs are separated by evidence type.
+- JSON files parse locally and relative links resolve to existing local files.
+- Live external HTTP checks were not repeated under the no-web/no-reverification restriction.
+
+Detailed QA: `docs/PORTFOLIO_FINAL_QA.md`.
