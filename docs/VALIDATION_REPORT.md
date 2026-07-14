@@ -72,3 +72,33 @@ WARNING: implementation is complete and valid locally; public profile Pages publ
 | GitHub Pages | WARNING | Public deployment still depends on repository Settings > Pages where not already enabled. |
 
 Detailed matrix: `docs/PORTFOLIO_WEB_STATUS.md`.
+
+## Stage UX-1 - Portal Information Architecture and Recruiter Mode Foundation
+
+Date: 2026-07-14
+
+Scope: implement the navigable foundation for Recruiter Mode, role/tool/sector exploration, reusable evidence cards and three flagship case studies in `MonicaCT/MonicaCT` only.
+
+Files created:
+
+- `docs/recruiter.html`
+- `docs/case-studies.html`
+- `docs/assets/data/skills-evidence.json`
+- `docs/assets/data/roles.json`
+- `docs/assets/data/case-studies.json`
+
+Files updated:
+
+- `docs/index.html`
+- `docs/projects.html`
+- `docs/assets/data/projects.json`
+- `docs/VALIDATION_REPORT.md`
+
+Validation notes:
+
+- No flagship repository was modified.
+- No data, results, papers, dashboards, figures or models were modified.
+- `docs/cv.html`, `docs/publications.html` and `site-template/` were not modified.
+- Power BI and Tableau are labelled `PLANNED` where artifacts are not yet publicly available.
+- The case-study page contains exactly three flagship case studies.
+- Recruiter Mode uses existing lightweight filter behavior from `docs/assets/js/site.js`.

@@ -1,0 +1,67 @@
+[
+  {
+    "role": "Data Analyst",
+    "relevant_skills": ["Python", "SQL", "R", "data validation", "dashboard communication"],
+    "relevant_projects": [
+      "Poverty, Informality and Social Protection in LAC",
+      "Inclusive Credit Risk Analytics Bolivia",
+      "Economic Complexity and Structural Transformation in LAC"
+    ],
+    "evidence_summary": "Strong evidence in data preparation, validation, analytical reporting, dashboards and public project documentation.",
+    "recommended_navigation": "Start with Recruiter Mode, then review Poverty, Credit Risk and Economic Complexity case studies."
+  },
+  {
+    "role": "Business Intelligence Analyst",
+    "relevant_skills": ["KPI design", "executive reporting", "Power BI planned", "dashboard communication"],
+    "relevant_projects": [
+      "Inclusive Credit Risk Analytics Bolivia",
+      "Latin America Financial Development Lab"
+    ],
+    "evidence_summary": "Strong KPI and executive-reporting evidence; Power BI remains planned until a public artifact exists.",
+    "recommended_navigation": "Start with Credit Risk, then open the dashboard/report links and BI evidence cards."
+  },
+  {
+    "role": "Development Data Analyst",
+    "relevant_skills": ["Python", "policy indicators", "country-year panels", "validation", "development communication"],
+    "relevant_projects": [
+      "Poverty, Informality and Social Protection in LAC",
+      "Economic Complexity and Structural Transformation in LAC",
+      "Structural Vulnerability in Latin America"
+    ],
+    "evidence_summary": "Strong evidence in LAC policy indicators, development analytics, poverty, informality and productive transformation.",
+    "recommended_navigation": "Start with Poverty and Economic Complexity, then review Structural Vulnerability as supporting evidence."
+  },
+  {
+    "role": "Research Data Analyst",
+    "relevant_skills": ["R", "econometrics", "methodology", "reproducibility", "scientific communication"],
+    "relevant_projects": [
+      "Economic Complexity and Structural Transformation in LAC",
+      "Structural Vulnerability in Latin America",
+      "Latin America Financial Development Lab"
+    ],
+    "evidence_summary": "Strong applied research evidence with methods, limitations, reports, papers and reproducible outputs.",
+    "recommended_navigation": "Start with Economic Complexity, then review publications and methods-heavy support projects."
+  },
+  {
+    "role": "Policy Data Analyst",
+    "relevant_skills": ["policy communication", "executive summaries", "development indicators", "public reports"],
+    "relevant_projects": [
+      "Poverty, Informality and Social Protection in LAC",
+      "Economic Complexity and Structural Transformation in LAC",
+      "Rural Bolivia Housing Analytics"
+    ],
+    "evidence_summary": "Strong policy-facing communication through indicators, public reports, limitations and decision-oriented products.",
+    "recommended_navigation": "Start with the three flagship case studies, then open publications and policy-report links."
+  },
+  {
+    "role": "Analytics Engineer",
+    "relevant_skills": ["SQL", "DuckDB", "data model", "validation", "reproducible architecture"],
+    "relevant_projects": [
+      "Economic Complexity and Structural Transformation in LAC",
+      "Inclusive Credit Risk Analytics Bolivia",
+      "Rural Bolivia Housing Analytics"
+    ],
+    "evidence_summary": "Moderate and improving evidence through SQL contracts, data models, validation reports and public reproducibility docs.",
+    "recommended_navigation": "Start with SQL and DuckDB evidence cards, then inspect data-model and validation links."
+  }
+]

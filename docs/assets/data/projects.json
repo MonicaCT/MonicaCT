@@ -34,7 +34,16 @@
         "status":  "Published public report",
         "dashboard_type":  "ANALYTICAL_REPORT",
         "main_product":  "Public analytical report",
-        "pages_configuration_required":  "main / docs"
+        "pages_configuration_required":  "main / docs",
+        "roles":  [
+                      "Data Analyst",
+                      "Business Intelligence Analyst",
+                      "Policy Data Analyst"
+                  ],
+        "evidence_level":  "STRONG",
+        "evidence_note":  "Strong public evidence for KPI design, executive reporting and credit risk analytics; Power BI remains planned.",
+        "powerbi_status":  "PLANNED",
+        "tableau_status":  "NOT_PLANNED"
     },
     {
         "slug":  "economic-complexity-structural-transformation-lac",
@@ -72,7 +81,18 @@
         "status":  "Technical content complete; Pages pending human configuration",
         "dashboard_type":  "STATIC_GALLERY",
         "main_product":  "Scientific website, paper, policy brief and static dashboard gallery",
-        "pages_configuration_required":  "PENDING HUMAN PAGES CONFIGURATION"
+        "pages_configuration_required":  "PENDING HUMAN PAGES CONFIGURATION",
+        "roles":  [
+                      "Data Analyst",
+                      "Development Data Analyst",
+                      "Research Data Analyst",
+                      "Policy Data Analyst",
+                      "Analytics Engineer"
+                  ],
+        "evidence_level":  "STRONG",
+        "evidence_note":  "Strong applied research evidence with R, Product Space, SQL contracts, paper, policy brief and DOI.",
+        "powerbi_status":  "NOT_PLANNED",
+        "tableau_status":  "PLANNED"
     },
     {
         "slug":  "poverty-informality-social-protection-lac",
@@ -110,7 +130,16 @@
         "status":  "Published public page with interactive dashboard",
         "dashboard_type":  "INTERACTIVE_WEB",
         "main_product":  "Portfolio website with interactive dashboard",
-        "pages_configuration_required":  "main / docs"
+        "pages_configuration_required":  "main / docs",
+        "roles":  [
+                      "Data Analyst",
+                      "Development Data Analyst",
+                      "Policy Data Analyst"
+                  ],
+        "evidence_level":  "STRONG",
+        "evidence_note":  "Strong public evidence for Python, policy indicators, validation and dashboard communication; Tableau remains planned.",
+        "powerbi_status":  "NOT_PLANNED",
+        "tableau_status":  "PLANNED"
     },
     {
         "slug":  "latin-america-financial-development-lab",
@@ -148,7 +177,16 @@
         "status":  "Published public page",
         "dashboard_type":  "INTERACTIVE_WEB",
         "main_product":  "Public website with dashboard and reports",
-        "pages_configuration_required":  "main / docs; verify dashboard/report paths if Pages serves only docs"
+        "pages_configuration_required":  "main / docs; verify dashboard/report paths if Pages serves only docs",
+        "roles":  [
+                      "Research Data Analyst",
+                      "Development Data Analyst",
+                      "Business Intelligence Analyst"
+                  ],
+        "evidence_level":  "MODERATE",
+        "evidence_note":  "Support evidence for finance and development indicators.",
+        "powerbi_status":  "PLANNED",
+        "tableau_status":  "NOT_PLANNED"
     },
     {
         "slug":  "structural-vulnerability-lac-research",
@@ -186,7 +224,16 @@
         "status":  "Published public page",
         "dashboard_type":  "STATIC_DASHBOARD",
         "main_product":  "Public website with static dashboard, figures and paper page",
-        "pages_configuration_required":  "main / docs"
+        "pages_configuration_required":  "main / docs",
+        "roles":  [
+                      "Research Data Analyst",
+                      "Development Data Analyst",
+                      "Policy Data Analyst"
+                  ],
+        "evidence_level":  "MODERATE",
+        "evidence_note":  "Support evidence for vulnerability research, econometric summaries and policy-facing limitations.",
+        "powerbi_status":  "NOT_PLANNED",
+        "tableau_status":  "PLANNED"
     },
     {
         "slug":  "rural-bolivia-housing-analytics",
@@ -224,7 +271,16 @@
         "status":  "Published public report",
         "dashboard_type":  "ANALYTICAL_REPORT",
         "main_product":  "Public analytical report",
-        "pages_configuration_required":  "main / docs"
+        "pages_configuration_required":  "main / docs",
+        "roles":  [
+                      "Data Analyst",
+                      "Development Data Analyst",
+                      "Analytics Engineer"
+                  ],
+        "evidence_level":  "STRONG",
+        "evidence_note":  "Strong privacy-first survey analytics evidence with Python, SQL and reproducible reporting.",
+        "powerbi_status":  "NOT_PLANNED",
+        "tableau_status":  "NOT_PLANNED"
     },
     {
         "slug":  "data-science-requirements-breast-cancer",
@@ -260,6 +316,14 @@
         "status":  "Published public page with technical report; no dashboard claimed",
         "dashboard_type":  "ANALYTICAL_REPORT",
         "main_product":  "Public website with final technical report",
-        "pages_configuration_required":  "main / docs"
+        "pages_configuration_required":  "main / docs",
+        "roles":  [
+                      "Data Analyst",
+                      "Research Data Analyst"
+                  ],
+        "evidence_level":  "MODERATE",
+        "evidence_note":  "Specialized evidence for requirements engineering, data quality and technical reporting.",
+        "powerbi_status":  "NOT_PLANNED",
+        "tableau_status":  "NOT_PLANNED"
     }
 ]
