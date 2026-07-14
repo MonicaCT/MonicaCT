@@ -1,0 +1,66 @@
+[
+  {
+    "year": "2016",
+    "category": "PUBLICATION",
+    "title": "Firm Migration toward Informality and Trade Openness",
+    "description": "Peer-reviewed article listed in the public publications page.",
+    "evidence_link": "http://www.revistasbolivianas.ciencia.bo/pdf/ec/v1n4/v1n4_a02.pdf",
+    "status": "VERIFIED_PUBLIC_LINK"
+  },
+  {
+    "year": "2016",
+    "category": "RESEARCH",
+    "title": "External Boom, Fiscal Policy and Long-run Growth in Bolivia",
+    "description": "Policy research output using a CGE approach, listed in the public publications page.",
+    "evidence_link": "https://portal.pep-net.org/document/download/30318",
+    "status": "VERIFIED_PUBLIC_LINK"
+  },
+  {
+    "year": "2017",
+    "category": "RESEARCH",
+    "title": "Public Social Expenditure and Spending on Children and Adolescents",
+    "description": "UDAPE / UNICEF public policy report listed in the public publications page.",
+    "evidence_link": "https://www.udape.gob.bo/wp-content/uploads/2023/03/LIBRO-gasto2017.pdf",
+    "status": "VERIFIED_PUBLIC_LINK"
+  },
+  {
+    "year": "2025",
+    "category": "PUBLICATION",
+    "title": "Financial Development, Political Instability and Growth in Bolivia",
+    "description": "Peer-reviewed publication listed in the public publications page.",
+    "evidence_link": "https://www.economiayfinanzas.gob.bo/sites/default/files/2025-11/CIEB_V7_N1_a4_esp.pdf",
+    "status": "VERIFIED_PUBLIC_LINK"
+  },
+  {
+    "year": "2025",
+    "category": "PUBLICATION",
+    "title": "Domestic Violence Against Women in Bolivia",
+    "description": "Peer-reviewed publication listed in the public publications page.",
+    "evidence_link": "https://www.economiayfinanzas.gob.bo/sites/default/files/2025-10/CIEB_V7_N1_a1_esp.pdf",
+    "status": "VERIFIED_PUBLIC_LINK"
+  },
+  {
+    "year": "2026",
+    "category": "DATA_PRODUCT",
+    "title": "Economic Complexity DOI-backed research release",
+    "description": "Economic Complexity and Structural Transformation in Latin America received a Zenodo DOI and public citation metadata.",
+    "evidence_link": "https://doi.org/10.5281/zenodo.21314881",
+    "status": "VERIFIED_PUBLIC_LINK"
+  },
+  {
+    "year": "2026",
+    "category": "DATA_PRODUCT",
+    "title": "Recruiter Mode and flagship case studies",
+    "description": "Portfolio navigation was expanded with recruiter-oriented evidence and three flagship case studies.",
+    "evidence_link": "recruiter.html",
+    "status": "VERIFIED_LOCAL_PAGE"
+  },
+  {
+    "year": "2026",
+    "category": "RESEARCH",
+    "title": "Research Mode and evidence navigation",
+    "description": "The portfolio was extended with a research-facing route for publications, working papers, dashboards and reproducibility evidence.",
+    "evidence_link": "research.html",
+    "status": "VERIFIED_LOCAL_PAGE"
+  }
+]

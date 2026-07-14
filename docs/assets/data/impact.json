@@ -1,0 +1,74 @@
+[
+  {
+    "metric": "Flagship repositories",
+    "value": "3",
+    "definition": "Repositories classified as first-wave flagships in the portfolio classification.",
+    "evidence": "docs/REPOSITORY_CLASSIFICATION.md",
+    "last_verified": "2026-07-14",
+    "caveat": "This is a portfolio classification count, not an external ranking."
+  },
+  {
+    "metric": "Public highlighted projects",
+    "value": "7",
+    "definition": "Projects listed in the public project catalog JSON.",
+    "evidence": "docs/assets/data/projects.json",
+    "last_verified": "2026-07-14",
+    "caveat": "Excludes private development workstreams."
+  },
+  {
+    "metric": "Research Labs",
+    "value": "6",
+    "definition": "Portfolio labs listed in the public README and website.",
+    "evidence": "README.md",
+    "last_verified": "2026-07-14",
+    "caveat": "Labs are an internal portfolio organization system."
+  },
+  {
+    "metric": "Peer-reviewed publications with public links",
+    "value": "3",
+    "definition": "Journal articles listed under peer-reviewed publications on the public publications page.",
+    "evidence": "docs/publications.html",
+    "last_verified": "2026-07-14",
+    "caveat": "No citation counts are claimed."
+  },
+  {
+    "metric": "Policy reports with public links",
+    "value": "2",
+    "definition": "Policy reports listed on the public publications page with public links.",
+    "evidence": "docs/publications.html",
+    "last_verified": "2026-07-14",
+    "caveat": "Impact beneficiaries or institutional uptake are not claimed."
+  },
+  {
+    "metric": "DOI-backed project",
+    "value": "1",
+    "definition": "Public portfolio project with a Zenodo DOI.",
+    "evidence": "https://doi.org/10.5281/zenodo.21314881",
+    "last_verified": "2026-07-14",
+    "caveat": "Only DOI existence is claimed, not downloads or citations."
+  },
+  {
+    "metric": "Public dashboards, explorers or report pages",
+    "value": "6",
+    "definition": "Public pages listed in the project catalog as dashboards, static dashboards, static galleries or analytical reports.",
+    "evidence": "docs/assets/data/projects.json",
+    "last_verified": "2026-07-14",
+    "caveat": "This counts public portfolio products, not active users."
+  },
+  {
+    "metric": "Geographic coverage",
+    "value": "Bolivia and Latin America",
+    "definition": "Geographies named across the public project catalog and README.",
+    "evidence": "README.md",
+    "last_verified": "2026-07-14",
+    "caveat": "Country coverage varies by project and should be checked in each repository."
+  },
+  {
+    "metric": "Methods represented",
+    "value": "descriptive analytics; panel data; econometrics; forecasting; survey analysis; spatial analysis; machine learning readiness; data quality; reproducibility",
+    "definition": "Methods represented in the Research Mode evidence structure and role-skills matrix.",
+    "evidence": "docs/assets/data/research-evidence.json",
+    "last_verified": "2026-07-14",
+    "caveat": "Method depth differs across projects."
+  }
+]

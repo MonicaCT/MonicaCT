@@ -102,3 +102,35 @@ Validation notes:
 - Power BI and Tableau are labelled `PLANNED` where artifacts are not yet publicly available.
 - The case-study page contains exactly three flagship case studies.
 - Recruiter Mode uses existing lightweight filter behavior from `docs/assets/js/site.js`.
+
+## Stage UX-2 - Research Mode, Timeline, Impact and How I Work
+
+Date: 2026-07-14
+
+Scope: complete the research-facing portal experience in `MonicaCT/MonicaCT` only.
+
+Files created:
+
+- `docs/research.html`
+- `docs/timeline.html`
+- `docs/impact.html`
+- `docs/how-i-work.html`
+- `docs/assets/data/research-evidence.json`
+- `docs/assets/data/timeline.json`
+- `docs/assets/data/impact.json`
+- `docs/assets/data/workflow.json`
+
+Files updated:
+
+- `docs/index.html`
+- `docs/assets/js/site.js`
+- `docs/VALIDATION_REPORT.md`
+
+Validation notes:
+
+- No flagship repository was modified.
+- No datasets, scientific outputs, papers, models, dashboards or verified publications were modified.
+- `docs/cv.html`, `docs/publications.html`, `docs/projects.html`, `docs/recruiter.html`, `docs/case-studies.html` and `site-template/` were not modified.
+- Research Mode separates `PEER_REVIEWED`, `WORKING_PAPER`, `TECHNICAL_REPORT`, `POLICY_REPORT`, `DASHBOARD` and `RESEARCH_PROJECT` states.
+- Impact indicators avoid views, downloads, citations, users and beneficiary claims.
+- Power BI and Tableau remain planned/build-package-ready where no public artifact exists.

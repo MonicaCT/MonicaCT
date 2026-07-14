@@ -1,0 +1,82 @@
+[
+  {
+    "step": "Define the problem",
+    "objective": "Translate a policy, research or business question into an analytical scope.",
+    "typical_tools": ["problem framing", "research question", "stakeholder brief"],
+    "outputs": ["research question", "analytical scope", "limitations"],
+    "quality_checks": ["question is decision-relevant", "scope does not overclaim causality"],
+    "evidence_projects": ["Economic Complexity and Structural Transformation in LAC", "Poverty, Informality and Social Protection in LAC"]
+  },
+  {
+    "step": "Understand stakeholders",
+    "objective": "Identify who will use the analysis and what decision or review path they need.",
+    "typical_tools": ["stakeholder mapping", "executive summary", "recruiter evidence path"],
+    "outputs": ["audience map", "review path", "communication format"],
+    "quality_checks": ["public product matches user need", "planned tools are labelled honestly"],
+    "evidence_projects": ["Inclusive Credit Risk Analytics Bolivia", "Portfolio Recruiter Mode"]
+  },
+  {
+    "step": "Audit data",
+    "objective": "Check public status, privacy boundaries, data quality and source documentation before analysis.",
+    "typical_tools": ["data inventory", "privacy review", "missingness assessment"],
+    "outputs": ["data inventory", "privacy status", "quality warnings"],
+    "quality_checks": ["no private paths", "no restricted microdata", "warnings documented"],
+    "evidence_projects": ["Rural Bolivia Housing Analytics", "Poverty, Informality and Social Protection in LAC"]
+  },
+  {
+    "step": "Clean and harmonize",
+    "objective": "Prepare consistent analytical structures while preserving definitions and limitations.",
+    "typical_tools": ["Python", "R", "Stata", "metadata"],
+    "outputs": ["clean panel", "variable catalog", "artifact catalog"],
+    "quality_checks": ["consistent identifiers", "documented transformations", "no silent recoding"],
+    "evidence_projects": ["Poverty, Informality and Social Protection in LAC", "Economic Complexity and Structural Transformation in LAC"]
+  },
+  {
+    "step": "Model with SQL/DuckDB",
+    "objective": "Document analytics-ready schemas, marts and validation queries when appropriate.",
+    "typical_tools": ["SQL", "DuckDB", "data model documentation"],
+    "outputs": ["DDL", "marts", "validation SQL"],
+    "quality_checks": ["keys documented", "range checks", "public/private boundary respected"],
+    "evidence_projects": ["Economic Complexity and Structural Transformation in LAC", "Inclusive Credit Risk Analytics Bolivia"]
+  },
+  {
+    "step": "Analyze with Python/R/Stata",
+    "objective": "Use fit-for-purpose tools for indicators, models, diagnostics and reporting.",
+    "typical_tools": ["Python", "R", "Stata", "Quarto"],
+    "outputs": ["indicators", "models", "tables", "reports"],
+    "quality_checks": ["model status labelled", "results interpreted cautiously", "outputs reproducible"],
+    "evidence_projects": ["Structural Vulnerability in Latin America", "Economic Complexity and Structural Transformation in LAC"]
+  },
+  {
+    "step": "Validate",
+    "objective": "Make data-quality, methodological and publication-status checks visible.",
+    "typical_tools": ["validation reports", "link checks", "privacy scans"],
+    "outputs": ["validation report", "data-quality report", "known warnings"],
+    "quality_checks": ["no hidden warnings", "no invented metrics", "links and JSON valid"],
+    "evidence_projects": ["Portfolio platform", "Rural Bolivia Housing Analytics"]
+  },
+  {
+    "step": "Visualize",
+    "objective": "Create dashboards, explorers or reports that match the audience and evidence level.",
+    "typical_tools": ["HTML", "JavaScript", "Python", "R", "Power BI planned", "Tableau planned"],
+    "outputs": ["dashboard", "explorer", "report page", "screenshots"],
+    "quality_checks": ["accessible navigation", "public link works or is labelled pending", "Power BI/Tableau not overstated"],
+    "evidence_projects": ["Poverty, Informality and Social Protection in LAC", "Inclusive Credit Risk Analytics Bolivia"]
+  },
+  {
+    "step": "Communicate",
+    "objective": "Translate analytical outputs into recruiter, research, policy or executive narratives.",
+    "typical_tools": ["executive summary", "policy brief", "case study", "publication page"],
+    "outputs": ["case study", "policy brief", "paper", "public report"],
+    "quality_checks": ["audience clear", "limitations included", "status labels correct"],
+    "evidence_projects": ["Economic Complexity and Structural Transformation in LAC", "Portfolio Case Studies"]
+  },
+  {
+    "step": "Document and reproduce",
+    "objective": "Leave a public trail for methods, citations, validation and reuse.",
+    "typical_tools": ["GitHub", "Markdown", "Quarto", "CITATION.cff", "Zenodo"],
+    "outputs": ["README", "methodology", "citation metadata", "release notes"],
+    "quality_checks": ["citation available when applicable", "private data excluded", "reproducibility boundaries explicit"],
+    "evidence_projects": ["Economic Complexity and Structural Transformation in LAC", "Portfolio platform"]
+  }
+]
